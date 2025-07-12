@@ -3,7 +3,7 @@
     position: relative;
     top: 0;
     left: 0;
-    height: 700px;
+    height: 90%;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://thecrossradiology.com.au/images/bg_1.jpg");
     position: absolute;
@@ -30,7 +30,7 @@
     color: white;
     font-size: 20px;
     font-weight: 10;
-    margin-left: 100px;
+    margin-left: 10%;
     font-family: 'TikTok Sans', sans-serif;
 }
 
@@ -44,7 +44,7 @@
 /* finish sorting */
 .navlinks {
     display: flex;
-    margin-right: 200px;
+    margin-right: 10%;
     justify-content: space-between;
     align-items: center;
     list-style: none;
@@ -106,8 +106,6 @@
 }
 
 .section2 {
-    /* border: 1px solid #2f89fc;
-    margin: 0px 300px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -175,4 +173,33 @@ h3 {
     align-items: center;
     margin-top: 200px;
     text-align: center;
+}
+.section4{
+    background:linear-gradient(#21aac4, #2cbcbc);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: -10px;
+    margin-right: -10px;
+    text-align: center;
+    color: white;
+}
+.section4-content {
+    padding: 20px;
+    margin-top: 5px;
+}
+.section4-content h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color:white; 
+    margin-top: 100px;
+    font-family: 'Open Sans', sans-serif;
+}
+.section4-content p {
+    font-size: 20px;
+    color: white;
+    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
 }
