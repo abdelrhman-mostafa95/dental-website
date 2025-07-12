@@ -1,0 +1,178 @@
+/* finish background for a section */
+.header {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 700px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://thecrossradiology.com.au/images/bg_1.jpg");
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    list-style: none;
+}
+
+/* finish sort nav bar */
+.navbar {
+    display: flex;
+    padding: 20px 20px;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* style denta */
+.navbar h1 {
+    color: white;
+    font-size: 20px;
+    font-weight: 10;
+    margin-left: 100px;
+    font-family: 'TikTok Sans', sans-serif;
+}
+
+/* style care */
+.navbar h1 span {
+    color: white;
+    font-weight: bold;
+    font-family: 'TikTok Sans', sans-serif;
+}
+
+/* finish sorting */
+.navlinks {
+    display: flex;
+    margin-right: 200px;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+/* finish style for nav bar items */
+.navlinks li {
+    flex: 1;
+    text-align: center;
+    margin-left: 20px;
+    color: white;
+    font-family: 'TikTok Sans', sans-serif;
+}
+
+/* finish btn */
+#btn {
+    white-space: nowrap;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+/* finish content of header */
+.text-box {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: left;
+    max-width: 500px;
+    font-family: 'TikTok Sans', sans-serif;
+}
+
+/* p of content */
+.text-box p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: rgb(225, 235, 225);
+    font-weight: lighter;
+    font-family: 'TikTok Sans', sans-serif;
+}
+
+/* btn of make an appointment */
+.btn-content {
+    border: 1px solid #2f89fc;
+    border-radius: 30px;
+    padding: 15px 25px;
+    background-color: #2f89fc;
+    cursor: pointer;
+}
+
+/* hover of btn */
+.btn-content:hover {
+    background-color: transparent;
+    border: 1px solid #2f89fc;
+    color: #2f89fc;
+    transition: 0.3s linear;
+}
+
+.section2 {
+    /* border: 1px solid #2f89fc;
+    margin: 0px 300px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 600px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 200px;
+}
+
+.div1-content {
+    text-align: center;
+    border: 1px solid #2cbcbc;
+    background-color: #2cbcbc;
+    height: 250px;
+    width: 600px;
+}
+
+.div2-content {
+    text-align: center;
+    border: 1px solid #21aac4;
+    background-color: #21aac4;
+    height: 250px;
+    width: 600px;
+}
+
+h3 {
+    font-size: 20px;
+    color: white;
+    font-family: 'TikTok Sans', sans-serif;
+}
+
+.p-content {
+    font-size: 20px;
+    color: white;
+    font-weight: lighter;
+    font-family: 'TikTok Sans', sans-serif;
+    margin-top: 10px;
+}
+.span-content{
+    font-size: 20px;
+    color: white;
+    font-weight: lighter;
+    font-family: 'TikTok Sans', sans-serif;
+    margin-top: 10px;
+}
+.section3 h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+    color: #2f89fc; 
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 100px;
+}
+.section3 p{
+    text-align: center;
+    font-size: 20px;
+    color: gray; 
+    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+}
+.teeth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    text-align: center;
+}
