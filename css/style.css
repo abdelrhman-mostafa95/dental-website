@@ -1,12 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* basic attributes */
+
+.d-flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.d-block {
+    display: block;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-start {
+    align-items: start;
+}
+
+.align-stretch {
+    align-items: stretch;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.text-align {
+    text-align: center;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.gap-50 {
+    gap: 50px;
+}
+
+.gap-30 {
+    gap: 30px;
+}
+
+.flex_two{
+    flex: 1;
+}
+
+.contanier {
+    width: 70%;
+    margin: auto;
+}
+
+.row {
+    margin-top: 20px;
+}
+
+.gradient-text {
+  background: linear-gradient(#2f89fc, #2cbcbc);
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+  background-clip: text; 
+  color: transparent; 
+}
+
+
+/* header-navbar */
+
 /* finish background for a section */
 .header {
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     height: 90%;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://thecrossradiology.com.au/images/bg_1.jpg");
-    position: absolute;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -15,13 +106,8 @@
 
 /* finish sort nav bar */
 .navbar {
-    display: flex;
     padding: 20px 20px;
-    justify-content: space-between;
-    align-items: center;
     list-style: none;
-    position: sticky;
-    top: 0;
     z-index: 1000;
 }
 
@@ -43,10 +129,7 @@
 
 /* finish sorting */
 .navlinks {
-    display: flex;
     margin-right: 10%;
-    justify-content: space-between;
-    align-items: center;
     list-style: none;
 }
 
@@ -105,33 +188,35 @@
     transition: 0.3s linear;
 }
 
+
+/* section2 - two containers */
 .section2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 600px;
+    margin-top: 500px;
     position: relative;
     z-index: 1;
     margin-bottom: 200px;
+    padding: 35px;
 }
 
-.div1-content {
+.div1-content{
     text-align: center;
     border: 1px solid #2cbcbc;
     background-color: #2cbcbc;
-    height: 250px;
-    width: 600px;
+    height: 35vh;
+    width: 50%;
 }
 
 .div2-content {
     text-align: center;
     border: 1px solid #21aac4;
     background-color: #21aac4;
-    height: 250px;
-    width: 600px;
+    height: 35vh;
+    width: 50%;
 }
 
 h3 {
+        margin-top: 10px;
+
     font-size: 20px;
     color: white;
     font-family: 'TikTok Sans', sans-serif;
@@ -151,13 +236,15 @@ h3 {
     font-family: 'TikTok Sans', sans-serif;
     margin-top: 10px;
 }
+
+/* section 3 services */
 .section3 h1{
     text-align: center;
     font-size: 30px;
     font-weight: lighter;
     color: #2f89fc; 
     font-family: 'Open Sans', sans-serif;
-    margin-top: 100px;
+    margin-top: 60px;
 }
 .section3 p{
     text-align: center;
@@ -168,38 +255,358 @@ h3 {
     margin-top: 20px;
 }
 .teeth{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 200px;
-    text-align: center;
-}
-.section4{
-    background:linear-gradient(#21aac4, #2cbcbc);
-    display: flex;
-    justify-content:center;
-    align-items: center;
     margin-top: 100px;
-    margin-left: -10px;
-    margin-right: -10px;
     text-align: center;
-    color: white;
+    gap: 30px;
 }
-.section4-content {
-    padding: 20px;
-    margin-top: 5px;
-}
+
+/* section 4 quality */
+    .section4{
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(#2f89fc, #2cbcbc);
+        margin-top: 100px;
+        text-align: center;
+        color: white;
+    }
+
 .section4-content h1 {
     font-size: 30px;
     font-weight: bold;
     color:white; 
-    margin-top: 100px;
+    margin-top: 50px;
     font-family: 'Open Sans', sans-serif;
+    text-align: start;
 }
 .section4-content p {
     font-size: 20px;
     color: white;
     font-weight: lighter;
     font-family: 'Open Sans', sans-serif;
+    text-align: start;
+}
+.section4-content img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: -0.25rem;
+}
+
+/* dentists */
+
+.dentists h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+    color: #2f89fc; 
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 60px;
+}
+.dentists p{
+    text-align: center;
+    font-size: 20px;
+    color: gray; 
+    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;
     margin-top: 20px;
+}
+
+.dentist_item__img{
+    border: 1px solid transparent;
+    border-radius: 100%;
+    width: 100%;
+    height: 60%;
+}
+
+.dentiat_item__links{
+    height: 50%;
+}
+
+.dentiat_item__links img{
+ border: 1px solid transparent;
+    border-radius: 100%;
+    width: 40%;
+    height: 5%;
+}
+
+.dentiat_item__links{
+list-style: none;
+margin-top: 30px;
+}
+
+.dentist_item{
+    width: 100%;
+    height: 100%;
+    padding: 10px 30px;
+    margin-top: 50px;
+    text-align: center;
+    border: 1px solid transparent;
+    box-shadow: 0 4px 8px rgb(8, 8, 8, 0.2);
+}
+
+.dentist_item h2{
+    text-align: center;
+    font-size: 15px;
+    font-weight: lighter;
+    color: black; 
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+}
+
+.dentist_item h6{
+    text-align: center;
+    font-size: 10px;
+    font-weight: 400;
+    color: #2f89fc; 
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+}
+
+.dentist_item p{
+    text-align: center;
+    font-size: 15px;
+    color: gray; 
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+}
+
+.small_p p{
+    text-align: start;
+    font-size: 15px;
+    color: gray; 
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 60px;
+}
+
+.small_p li{
+    text-align: start;
+    font-size: 14px;
+    color: gray; 
+    font-weight: 50;
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+    margin: 10px;
+}
+
+.small_p h6{
+    text-align: start;
+    font-size: 25px;
+    color:#2f89fc; 
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px 0;
+}
+.small_p span{
+    text-align: start;
+    font-size: 10px;
+    color: gray; 
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* free_quote-section */
+.free_quote-section{
+margin-top: 60px;
+}
+
+.left{
+    padding: 50px;
+    width: 50%;
+    height: 60vh;
+    background-color: #2f89fc;
+}
+
+.left h2{
+    text-align: start;
+    font-size: 20px;
+    color: white; 
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+}
+
+.left_p{
+    text-align: start;
+    margin: 10px 0 30px;
+    font-size: 15px;
+    color: white; 
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.left p{
+    text-align: start;
+    margin-top: 30px;
+    font-size: 15px;
+    color: white; 
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.right{
+    padding: 50px;
+    width: 50%;
+    height: 60vh;
+}
+
+.right h2{
+    text-align: start;
+    font-size: 20px;
+    color: black; 
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+}
+
+.right input{
+    width: 50%;
+  padding: 12px 16px;
+  margin-bottom: 16px;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.right button{
+    background-color: #3a9cff; 
+  color: #fff;
+  padding: 12px 28px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 30px;  
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+/* footer */
+
+.last_footer{
+    margin-top: 50px;
+    padding: 64px 112px;
+    background: linear-gradient(#2f89fc, #2cbcbc);
+}
+
+.footer_column a{
+display: block;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: -0.1px;
+color: var(--color-light-gray);
+text-decoration: none;
+padding: 12px 0;
+}
+
+.footer_column h5{
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: -0.1px;
+color: var(--color-white);
+padding: 68px 0 24px;
+}
+
+.last_footer__img{
+    padding: 64px 0;
+}
+
+.last_footer__img h6{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: -0.1px;
+color: var(--color-light-gray);
+padding: 16px 0;
+}
+
+.footer_input {
+    padding: 12px 16px;
+    width: 22rem;
+    background-color: var(--color-black);
+}
+
+.submit_btn {
+    background-color: var(--color-blue);
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    font-size: 14px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.footer_email{
+    margin-left: -50px;
+    padding: 16px 0;
+}
+
+.last_footer p{
+    font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: -0.1px;
+color: var(--color-light-gray);
+padding: 16px 0;
+text-align: center;
+}
+
+@media (max-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+
+  header {
+    padding: 15px 30px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .navBar {
+    gap: 20px;
+  }
+
+  section {
+    padding: 50px 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  header {
+    padding: 10px 20px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .navBar {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  section {
+    padding: 30px 20px;
+  }
 }
